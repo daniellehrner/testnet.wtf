@@ -10,10 +10,12 @@ export default function Footer() {
   return (
     <footer className="footer items-center p-4 bg-neutral">
       <div className="items-center grid-flow-col">
-        <p>Copyright © {currentYear} - All right reserved</p>
+        <p>Copyright © {currentYear}</p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a href="#"><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
+        <a href="https://github.com/daniellehrner/testnet.wtf" target="_blank">
+          <FontAwesomeIcon icon={faGithub} size="2xl" />
+        </a>
      </div>
     </footer>
   );
