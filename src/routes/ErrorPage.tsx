@@ -1,7 +1,7 @@
 // Copyright 2023 - testnet.wtf contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { useRouteError } from "react-router-dom";
+import { useRouteError } from 'react-router-dom';
 
 interface RouteError {
   statusText?: string;
